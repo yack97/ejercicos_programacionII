@@ -14,7 +14,7 @@ public class Estacion {
         int n, numero;
         System.out.print("Cuantas consultas desea realizar: ");
         n=entrada.nextInt();
-        for (int  i=0; i<=n; i++){
+        for (int  i=1; i<=n; i++){
             System.out.println("Digite un numero: ");
             numero=entrada.nextInt();
         switch (numero){
